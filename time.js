@@ -5,7 +5,7 @@ function Time(HOUR, MINUTE, PERIOD) {
 			console.log("It's quarter to", HOUR + 1, PERIOD)
 		}
 		else {
-		console.log("It's almost", HOUR, PERIOD);
+		console.log("It's almost", HOUR + 1, PERIOD);
 		}
 	}
 	else if(MINUTE < 30){
